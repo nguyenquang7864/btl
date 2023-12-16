@@ -1,0 +1,51 @@
+.taobaiviet{
+    width: 60%;
+    font-family: Arial, sans-serif;
+    margin-top: 200px;
+}
+
+.taobaiviet form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.taobaiviet label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.taobaiviet input[type="text"],
+.taobaiviet textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.taobaiviet input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.taobaiviet input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the header */
+.taobaiviet h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

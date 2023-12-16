@@ -1,0 +1,30 @@
+#menu {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-variant-emoji: 15;
+}
+
+
+
+
+#new_stt {
+    margin-left: 30px;
+}
+
+
+.search {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+#submit {
+    margin-left: 20px;
+}
