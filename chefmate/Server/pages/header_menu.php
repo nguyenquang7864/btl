@@ -46,10 +46,7 @@
                 <a href="nhahangdexuat.php">Nhà hàng được đề xuất</a>
                 <a id="new_stt" href="taobaiviet.php">Tạo bài viết</a>
 
-                <form class="search">
-                    <input type="search" name="search" id="search" placeholder="Tìm kiếm tên món ăn ...">
-                    <input type="submit" id="submit" value="Tìm kiếm">
-                </form>
+                
 
             </div>
 
