@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/chefmate/Server/css/main.css">
+<link rel="stylesheet" href="/chefmate/Server/css/main.css?v=2">
 <div id="main">
     <h2 id="st">Xin chào đến với Chefmate!</h2>
     <p id="gt">

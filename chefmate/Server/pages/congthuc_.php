@@ -1,6 +1,7 @@
-<link rel="stylesheet" href="/chefmate/Server/css/congthuc.css">
-<div class="container">
-        <h1>Danh sách công thức</h1>
+<link rel="stylesheet" href="/chefmate/Server/css/cong_thuc.css?v=2">
+<div class="cong-thuc" >
+        
+        <h1 id = "ds">Danh sách công thức</h1>
         <div class="recipe-grid">
             <?php
             require_once 'C:\xampp\htdocs\chefmate\Server\admin\config\connect.php';
@@ -14,8 +15,8 @@
                     // Hiển thị thông tin của từng công thức
                     echo '<div class="recipe-item">';
                     echo '<img src="' . $row['hinh_mon_an'] . '" alt="' . $row['ten_mon_an'] . '">';
-                    echo '<h3>' . $row['ten_mon_an'] . '</h3>';
-                    echo '<a href="xemchitiet.php?id=' . $row['id_mon_an'] . '">Xem chi tiết</a>';
+                    echo '<h3 >' . $row['ten_mon_an'] . '</h3>';
+                    echo '<a  href="xemchitiet.php?id=' . $row['id_mon_an'] . '"  >Xem chi tiết</a>';
                     echo '</div>';
                 }
             } else {
@@ -24,4 +25,12 @@
             $conn->close();
             ?>
         </div>
-    </div>
+
+        <!-- Nút Xem thêm -->
+        <div class="xem-them">
+            <button id="loadMoreButton">Xem thêm</button>
+        </div>
+
+        
+
+</div>

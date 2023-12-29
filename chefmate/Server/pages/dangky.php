@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Trang Đăng Ký Tài Khoản</title>
-    <link rel="stylesheet" type="text/css" href="/chefmate/Server/css/dangky.css">
+    <link rel="stylesheet" type="text/css" href="/chefmate/Server/css/dangky.css?v=2">
     <title>Đăng ký tài khoản</title>
 </head>
 <body>

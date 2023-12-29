@@ -16,3 +16,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+var viewMoreButton = document.getElementById('view-more');
+var newsContainer = document.querySelector('.news-container');
+
+viewMoreButton.addEventListener('click', function() {
+        // Xử lý sự kiện khi nhấn nút "Xem thêm"
+        // Thực hiện hiển thị tất cả bài viết hoặc thêm bài viết mới vào DOM
+        // Ví dụ:
+        // Fetch dữ liệu từ cơ sở dữ liệu cho các bài viết còn lại
+        // Thêm HTML mới cho các bài viết vào newsContainer
+});
+

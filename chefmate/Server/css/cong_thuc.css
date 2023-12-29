@@ -1,26 +1,26 @@
-body {
+
+.cong-thuc {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    margin-top: 200px;
+    top: 200px;
+    margin-left: 88px;
+    margin-bottom: 60px;
 }
 
-.container {
-    width: 40%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h2 {
-    margin-top: 0px;
+.cong-thuc #ds {
+    margin-top: 190px;
     text-align: center;
     color: #333;
 }
 
-.recipe-grid {
+ .recipe-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Hiển thị 3 ô trên mỗi hàng */
+    grid-template-columns: repeat(4, 1fr); /* Hiển thị 3 ô trên mỗi hàng */
     gap: 20px; /* Khoảng cách giữa các ô */
 }
 
@@ -35,16 +35,17 @@ h2 {
 .recipe-item img {
     max-width: 100px;
     height: auto;
+    text-align: justify;
     border-radius: 5px;
 }
 
-#tenmonan {
+.cong-thuc h3 {
     margin-top: 10px;
     font-size: 18px;
     color: #333;
 }
 
-a {
+.cong-thuc a {
     display: block;
     margin-top: 10px;
     text-decoration: none;

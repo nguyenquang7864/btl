@@ -11,5 +11,6 @@
             include("congthuc_.php");
             include("footer.php");
         ?>
+        <script src="../js/xemthem.js"></script>
     </body>
 </html>

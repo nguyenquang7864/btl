@@ -78,6 +78,7 @@ li {
 .video {
     position: relative;
     padding-bottom: 56.25%;
+    margin-bottom: 50px;
     height: 0;
 }
 
@@ -87,4 +88,5 @@ li {
     left: 0;
     width: 700px;
     height: 400px;
+    
 }

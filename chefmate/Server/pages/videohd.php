@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dành cho admin</title>
+    <title>Video hướng dẫn nấu ăn </title>
 </head>
     <body>
         <?php 
-            include("header_menu_admin.php");
-            include("duyetbaiviet.php");
+            include("header_menu.php");
+            include("video.php");
+            include("footer.php");
         ?>
-        
     </body>
 </html>

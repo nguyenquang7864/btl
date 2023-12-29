@@ -1,8 +1,9 @@
-/* Style cho danh sách bài viết */
+
 .post {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 170px;
 }
 
 .post h3 {

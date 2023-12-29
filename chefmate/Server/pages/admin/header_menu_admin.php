@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/chefmate/Server/css/header_menu.css">
+<link rel="stylesheet" href="/chefmate/Server/css/header_menu.css?v=2">
 <div class="header">
 
         <div id="logo">
@@ -31,6 +31,8 @@
                     }
                     ?>
                     
+                
+
                     <a href="../logout.php"><img src="../../image/image_header_menu/logout.png" alt="logout"></a>
                 </div>
                 
@@ -38,8 +40,8 @@
 
             <div id="menu">
                     
-                    <a href="duyetbaiviet.php">Duyệt bài viết</a>
-                    <a href="../admin/taobaiviet.php">Thêm bài viết</a>
+                    <a href="admin.php">Duyệt bài viết</a>
+                    <a href="taobaiviet.php">Thêm bài viết</a>
                     <a href="quanlibaiviet.php">Quản lí bài viết</a>
                     <a href="quanlitaikhoan.php">Quản lí tài khoản</a>
 

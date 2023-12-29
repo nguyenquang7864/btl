@@ -6,8 +6,24 @@
     <title>Quản lí bài viết</title>
 </head>
 <body>
-    <?php 
-        include("header_menu_admin.php");
-    ?>
+
+        <div>
+            <?php 
+            include("header_menu_admin.php");
+            ?>
+        </div>
+
+        <div>
+            <?php 
+            include("quanlibaiviet_.php");
+            ?>
+        </div>
+
+        <div>
+            <?php 
+            include("../footer.php");
+            ?>
+        </div>
+    
 </body>
 </html>

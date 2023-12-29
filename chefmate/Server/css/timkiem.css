@@ -1,0 +1,39 @@
+.timkiem {
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-right: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: auto; /* Tạo thanh cuộn khi nội dung vượt quá kích thước */
+    max-height: 400px; /* Giới hạn chiều cao để tạo thanh cuộn */
+}
+
+/* Thiết kế của các mục kết quả */
+.timkiem .recipe-item {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.timkiem .recipe-item img {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.timkiem .recipe-item h3 {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.timkiem .recipe-item a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+}

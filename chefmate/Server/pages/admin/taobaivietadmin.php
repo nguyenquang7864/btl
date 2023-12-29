@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/taobaiviet.css?v=2">
+<link rel="stylesheet" href="../../css/taobaiviet.css?v=2">
 <?php
         require_once 'C:\xampp\htdocs\chefmate\Server\admin\config\connect.php';
 
@@ -10,7 +10,7 @@
 
             // Kiểm tra xem các trường có rỗng không
             if (!empty($tieu_de) && !empty($gioi_thieu) && !empty($chi_tiet) && !empty($hinh_bai_viet)) {
-                $sql = "INSERT INTO bai_viet_cho_duyet (tieu_de, gioi_thieu, chi_tiet, hinh_bai_viet) VALUES ('$tieu_de', '$gioi_thieu', '$chi_tiet', '$hinh_bai_viet')";
+                $sql = "INSERT INTO bai_viet (tieu_de, gioi_thieu, chi_tiet, hinh_bai_viet) VALUES ('$tieu_de', '$gioi_thieu', '$chi_tiet', '$hinh_bai_viet')";
 
                 if ($conn->query($sql) === TRUE) {
                     echo "Thêm bài viết thành công!";

@@ -1,0 +1,52 @@
+/* Reset CSS */
+.quanlitaikhoan *{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style cho người dùng */
+.nguoi-dung-container {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các ô người dùng xuống dòng khi không đủ không gian */
+    gap: 20px; /* Khoảng cách giữa các ô người dùng */
+}
+
+.nguoi-dung {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(20% - 20px); /* Chia đều thành 5 ô trong mỗi hàng */
+    display: flex;
+    flex-direction: column; /* Hiển thị các thông tin người dùng dọc theo cột */
+}
+
+.nguoi-dung img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nguoi-dung .info {
+    flex: 1;
+}
+
+.nguoi-dung p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}

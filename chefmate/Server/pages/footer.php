@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/chefmate/Server/css/footer.css">
+<link rel="stylesheet" href="/chefmate/Server/css/footer_.css?v=2">
 <footer>
 
     <div class="contact-info">

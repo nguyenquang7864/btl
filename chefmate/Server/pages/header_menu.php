@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/chefmate/Server/css/header_menu.css">
+<link rel="stylesheet" href="/chefmate/Server/css/header_menu_.css?v=2">
 <div class="header">
 
         <div id="logo">
@@ -10,7 +10,7 @@
             <div id="title_user">
 
                 <div id="title">
-                    <h1>Cộng đồng yêu ẩm thực CHEFMATE!</h1>
+                    <h1 id = "title_" >Cộng đồng yêu ẩm thực CHEFMATE!</h1>
                 </div>
 
                 <div class="user">
@@ -39,12 +39,22 @@
             </div>
 
             <div id="menu">
+
                 <a href="index.php">Trang chủ</a>
                 <a href="congthuc.php">Công thức</a>
-                <a href="nhandip.php">Nhân dịp</a>
-                <a href="sukien.php">Sự kiện ẩm thực</a>
-                <a href="nhahangdexuat.php">Nhà hàng được đề xuất</a>
+                <a href="videohd.php">Video hướng dẫn nấu ăn</a>
                 <a id="new_stt" href="taobaiviet.php">Tạo bài viết</a>
+
+
+                <form class="search" >
+
+                <input type="search" name="search" id="search" placeholder="Tìm kiếm tên món ăn , nguyên liệu , ...">
+                <input type="submit" id="submit" value="Tìm kiếm">
+                <?php
+                        include("timkiem.php")
+                    ?>
+
+                </form>
 
                 
 

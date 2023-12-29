@@ -1,0 +1,71 @@
+.xem-chi-tiet * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.xem-chi-tiet body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.xem-chi-tiet .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.xem-chi-tiet h2 {
+    margin-top: 190px;
+    color: rgb(23, 18, 117);
+}
+
+.xem-chi-tiet img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.xem-chi-tiet p {
+    margin-bottom: 15px;
+}
+
+.xem-chi-tiet table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.xem-chi-tiet th, .xem-chi-tiet td {
+    padding: 8px;
+    border: 1px solid #cf3636;
+}
+
+.xem-chi-tiet th {
+    background-color: #d75757;
+}
+
+.xem-chi-tiet table.cach-lam {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.xem-chi-tiet table.cach-lam tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.xem-chi-tiet table.cach-lam td {
+    padding: 10px;
+}
+
+.xem-chi-tiet table.cach-lam td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+
+

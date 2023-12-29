@@ -1,0 +1,51 @@
+/* Reset CSS */
+.quanlibaiviet {
+    padding-top: 190px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style cho danh sách bài viết */
+.bai-viet {
+    border: 1px solid #ccc;
+
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.bai-viet img {
+    width: 100%;
+    height: auto;
+}
+
+.bai-viet h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.bai-viet p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}

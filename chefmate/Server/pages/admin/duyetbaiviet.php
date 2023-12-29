@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../../css.duyetbaiviet.css">
+<link rel="stylesheet" href="../../css/duyetbaiviet.css?v=2">
 <?php
 // Kết nối đến cơ sở dữ liệu
 require_once 'C:\xampp\htdocs\chefmate\Server\admin\config\connect.php';
@@ -10,6 +10,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         echo '<div class="post">';
+        echo '<img src="' . $row['hinh_bai_viet'] . '" alt="Ảnh">';
         echo '<h3>' . $row['tieu_de'] . '</h3>';
         echo '<p>' . $row['gioi_thieu'] . '</p>';
         // Hiển thị các thông tin khác về bài viết
@@ -26,5 +27,5 @@ if ($result->num_rows > 0) {
 } else {
     echo "Không có bài viết nào đang chờ duyệt.";
 }
-$conn->close();
+
 ?>
